@@ -7,8 +7,8 @@ def cred = new AzureCredentials(
   CredentialsScope.GLOBAL,
   "storagekey",
   "key for Azure storage",
-  $ACCOUNT,
-  $KEY,
+  $STORAGE_ACCOUNT,
+  $STORAGE_KEY,
   "http://blob.core.windows.net/"
 )
 
