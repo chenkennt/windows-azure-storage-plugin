@@ -41,6 +41,3 @@ VOLUME /home/jenkins/.jenkins
 VOLUME ${AGENT_WORKDIR}
 
 ENTRYPOINT ["/usr/local/bin/jenkins-slave"]
-
-# COPY groovy/init.groovy /usr/share/jenkins/ref/
-
