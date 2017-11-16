@@ -41,7 +41,7 @@ echo Hello, $(date) &gt; artifacts/hello.txt
       <excludeFilesPath></excludeFilesPath>
       <virtualPath></virtualPath>
       <doNotWaitForPreviousBuild>false</doNotWaitForPreviousBuild>
-      <storageCredentialId>kenchenacrtest071949</storageCredentialId>
+      <storageCredentialId>storagekey</storageCredentialId>
     </com.microsoftopentechnologies.windowsazurestorage.WAStoragePublisher>
   </publishers>
   <buildWrappers>

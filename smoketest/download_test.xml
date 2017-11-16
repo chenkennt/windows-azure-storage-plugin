@@ -15,7 +15,7 @@
     <com.microsoftopentechnologies.windowsazurestorage.AzureStorageBuilder plugin="windows-azure-storage@0.3.7">
       <downloadType>container</downloadType>
       <deleteFromAzureAfterDownload>true</deleteFromAzureAfterDownload>
-      <storageCredentialId>kenchenacrtest071949</storageCredentialId>
+      <storageCredentialId>storagekey</storageCredentialId>
       <containerName>jenkinstest</containerName>
       <fileShare></fileShare>
       <includeFilesPattern>artifacts/**</includeFilesPattern>
