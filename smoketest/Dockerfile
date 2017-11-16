@@ -10,9 +10,7 @@ RUN /opt/bash/bootstrap-jenkins.sh
 
 USER root
 
-RUN apt-get -y update && apt-get -y upgrade
-
-RUN apt-get install -y perl
+RUN apk add perl
 
 RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
     && curl -fsSL -o /tmp/apache-maven.tar.gz http://www-us.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz \
